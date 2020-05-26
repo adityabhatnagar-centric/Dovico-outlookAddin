@@ -1,1 +1,1 @@
-# Dovico-outlookAddin
+# Dovico-outlookWebAddin
