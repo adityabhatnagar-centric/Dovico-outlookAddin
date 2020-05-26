@@ -1,0 +1,8 @@
+C:\work\dovico-outlookaddin\Dovico.CommonLibrary\bin\Dovico.CommonLibrary.dll
+C:\work\dovico-outlookaddin\Dovico.CommonLibrary\bin\Dovico.CommonLibrary.pdb
+C:\work\dovico-outlookaddin\Dovico.CommonLibrary\obj\Release\Dovico.CommonLibrary.csprojResolveAssemblyReference.cache
+C:\work\dovico-outlookaddin\Dovico.CommonLibrary\obj\Release\Dovico.CommonLibrary.strings.resources
+C:\work\dovico-outlookaddin\Dovico.CommonLibrary\obj\Release\Dovico.CommonLibrary.csproj.GenerateResource.cache
+C:\work\dovico-outlookaddin\Dovico.CommonLibrary\obj\Release\Dovico.CommonLibrary.csproj.CoreCompileInputs.cache
+C:\work\dovico-outlookaddin\Dovico.CommonLibrary\obj\Release\Dovico.CommonLibrary.dll
+C:\work\dovico-outlookaddin\Dovico.CommonLibrary\obj\Release\Dovico.CommonLibrary.pdb

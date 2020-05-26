@@ -1,0 +1,6 @@
+C:\work\dovico-outlookaddin\Dovico.OutlookTimeEntryAddin.Business\bin\Debug\Dovico.OutlookTimeEntryAddin.Business.dll
+C:\work\dovico-outlookaddin\Dovico.OutlookTimeEntryAddin.Business\bin\Debug\Dovico.OutlookTimeEntryAddin.Business.pdb
+C:\work\dovico-outlookaddin\Dovico.OutlookTimeEntryAddin.Business\obj\Debug\Dovico.OutlookTimeEntryAddin.Business.csprojResolveAssemblyReference.cache
+C:\work\dovico-outlookaddin\Dovico.OutlookTimeEntryAddin.Business\obj\Debug\Dovico.OutlookTimeEntryAddin.Business.csproj.CoreCompileInputs.cache
+C:\work\dovico-outlookaddin\Dovico.OutlookTimeEntryAddin.Business\obj\Debug\Dovico.OutlookTimeEntryAddin.Business.dll
+C:\work\dovico-outlookaddin\Dovico.OutlookTimeEntryAddin.Business\obj\Debug\Dovico.OutlookTimeEntryAddin.Business.pdb

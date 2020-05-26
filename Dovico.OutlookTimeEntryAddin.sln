@@ -1,0 +1,171 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dovico.OutlookTimeEntryAddin.Application", "Dovico.OutlookTimeEntryAddin.Application\Dovico.OutlookTimeEntryAddin.Application.csproj", "{DA8183D7-10FD-41C7-86F2-628DA1E21753}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dovico.OutlookTimeEntryAddin.Business", "Dovico.OutlookTimeEntryAddin.Business\Dovico.OutlookTimeEntryAddin.Business.csproj", "{B6143BE3-9B33-4611-B6E7-17A3F023A2EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dovico.OutlookTimeEntryAddin.Common", "Dovico.OutlookTimeEntryAddin.Common\Dovico.OutlookTimeEntryAddin.Common.csproj", "{4B043883-AB51-4B3D-8137-354995F03B65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dovico.OutlookTimeEntryAddin.Integration", "Dovico.OutlookTimeEntryAddin.Integration\Dovico.OutlookTimeEntryAddin.Integration.csproj", "{EB703265-47E6-40FD-A25A-604DBAAF5B22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dovico.OutlookTimeEntryAddin.WebAddIn", "Dovico.OutlookTimeEntryAddin.WebAddIn\Dovico.OutlookTimeEntryAddin.WebAddIn.csproj", "{FB585A43-7099-408D-9956-37C9704AE370}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dovico.OutlookTimeEntryAddin.WebAddInWeb", "Dovico.OutlookTimeEntryAddin.WebAddInWeb\Dovico.OutlookTimeEntryAddin.WebAddInWeb.csproj", "{2B2160CC-5A49-4E9C-96A9-36723B898B4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dovico.CommonLibrary", "Dovico.CommonLibrary\Dovico.CommonLibrary.csproj", "{D1DEA6B0-4BE7-4ACE-8346-A8F149CCA87A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dovico.OutlookTimeEntryAddin.Test", "Dovico.OutlookTimeEntryAddin.Test\Dovico.OutlookTimeEntryAddin.Test.csproj", "{D60D9D8E-40BF-4C39-9C90-2214E6A42186}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DebugPunchClock|Any CPU = DebugPunchClock|Any CPU
+		Release|Any CPU = Release|Any CPU
+		ReleaseCalendar|Any CPU = ReleaseCalendar|Any CPU
+		ReleasePunchClock|Any CPU = ReleasePunchClock|Any CPU
+		ReleaseTimerStandAlone|Any CPU = ReleaseTimerStandAlone|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA8183D7-10FD-41C7-86F2-628DA1E21753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA8183D7-10FD-41C7-86F2-628DA1E21753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA8183D7-10FD-41C7-86F2-628DA1E21753}.DebugPunchClock|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA8183D7-10FD-41C7-86F2-628DA1E21753}.DebugPunchClock|Any CPU.Build.0 = Debug|Any CPU
+		{DA8183D7-10FD-41C7-86F2-628DA1E21753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA8183D7-10FD-41C7-86F2-628DA1E21753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA8183D7-10FD-41C7-86F2-628DA1E21753}.ReleaseCalendar|Any CPU.ActiveCfg = Release|Any CPU
+		{DA8183D7-10FD-41C7-86F2-628DA1E21753}.ReleaseCalendar|Any CPU.Build.0 = Release|Any CPU
+		{DA8183D7-10FD-41C7-86F2-628DA1E21753}.ReleasePunchClock|Any CPU.ActiveCfg = Release|Any CPU
+		{DA8183D7-10FD-41C7-86F2-628DA1E21753}.ReleasePunchClock|Any CPU.Build.0 = Release|Any CPU
+		{DA8183D7-10FD-41C7-86F2-628DA1E21753}.ReleaseTimerStandAlone|Any CPU.ActiveCfg = Release|Any CPU
+		{DA8183D7-10FD-41C7-86F2-628DA1E21753}.ReleaseTimerStandAlone|Any CPU.Build.0 = Release|Any CPU
+		{B6143BE3-9B33-4611-B6E7-17A3F023A2EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6143BE3-9B33-4611-B6E7-17A3F023A2EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6143BE3-9B33-4611-B6E7-17A3F023A2EE}.DebugPunchClock|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6143BE3-9B33-4611-B6E7-17A3F023A2EE}.DebugPunchClock|Any CPU.Build.0 = Debug|Any CPU
+		{B6143BE3-9B33-4611-B6E7-17A3F023A2EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6143BE3-9B33-4611-B6E7-17A3F023A2EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6143BE3-9B33-4611-B6E7-17A3F023A2EE}.ReleaseCalendar|Any CPU.ActiveCfg = Release|Any CPU
+		{B6143BE3-9B33-4611-B6E7-17A3F023A2EE}.ReleaseCalendar|Any CPU.Build.0 = Release|Any CPU
+		{B6143BE3-9B33-4611-B6E7-17A3F023A2EE}.ReleasePunchClock|Any CPU.ActiveCfg = Release|Any CPU
+		{B6143BE3-9B33-4611-B6E7-17A3F023A2EE}.ReleasePunchClock|Any CPU.Build.0 = Release|Any CPU
+		{B6143BE3-9B33-4611-B6E7-17A3F023A2EE}.ReleaseTimerStandAlone|Any CPU.ActiveCfg = Release|Any CPU
+		{B6143BE3-9B33-4611-B6E7-17A3F023A2EE}.ReleaseTimerStandAlone|Any CPU.Build.0 = Release|Any CPU
+		{4B043883-AB51-4B3D-8137-354995F03B65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B043883-AB51-4B3D-8137-354995F03B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B043883-AB51-4B3D-8137-354995F03B65}.DebugPunchClock|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B043883-AB51-4B3D-8137-354995F03B65}.DebugPunchClock|Any CPU.Build.0 = Debug|Any CPU
+		{4B043883-AB51-4B3D-8137-354995F03B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B043883-AB51-4B3D-8137-354995F03B65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B043883-AB51-4B3D-8137-354995F03B65}.ReleaseCalendar|Any CPU.ActiveCfg = Release|Any CPU
+		{4B043883-AB51-4B3D-8137-354995F03B65}.ReleaseCalendar|Any CPU.Build.0 = Release|Any CPU
+		{4B043883-AB51-4B3D-8137-354995F03B65}.ReleasePunchClock|Any CPU.ActiveCfg = Release|Any CPU
+		{4B043883-AB51-4B3D-8137-354995F03B65}.ReleasePunchClock|Any CPU.Build.0 = Release|Any CPU
+		{4B043883-AB51-4B3D-8137-354995F03B65}.ReleaseTimerStandAlone|Any CPU.ActiveCfg = Release|Any CPU
+		{4B043883-AB51-4B3D-8137-354995F03B65}.ReleaseTimerStandAlone|Any CPU.Build.0 = Release|Any CPU
+		{EB703265-47E6-40FD-A25A-604DBAAF5B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB703265-47E6-40FD-A25A-604DBAAF5B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB703265-47E6-40FD-A25A-604DBAAF5B22}.DebugPunchClock|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB703265-47E6-40FD-A25A-604DBAAF5B22}.DebugPunchClock|Any CPU.Build.0 = Debug|Any CPU
+		{EB703265-47E6-40FD-A25A-604DBAAF5B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB703265-47E6-40FD-A25A-604DBAAF5B22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB703265-47E6-40FD-A25A-604DBAAF5B22}.ReleaseCalendar|Any CPU.ActiveCfg = Release|Any CPU
+		{EB703265-47E6-40FD-A25A-604DBAAF5B22}.ReleaseCalendar|Any CPU.Build.0 = Release|Any CPU
+		{EB703265-47E6-40FD-A25A-604DBAAF5B22}.ReleasePunchClock|Any CPU.ActiveCfg = Release|Any CPU
+		{EB703265-47E6-40FD-A25A-604DBAAF5B22}.ReleasePunchClock|Any CPU.Build.0 = Release|Any CPU
+		{EB703265-47E6-40FD-A25A-604DBAAF5B22}.ReleaseTimerStandAlone|Any CPU.ActiveCfg = Release|Any CPU
+		{EB703265-47E6-40FD-A25A-604DBAAF5B22}.ReleaseTimerStandAlone|Any CPU.Build.0 = Release|Any CPU
+		{FB585A43-7099-408D-9956-37C9704AE370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB585A43-7099-408D-9956-37C9704AE370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB585A43-7099-408D-9956-37C9704AE370}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FB585A43-7099-408D-9956-37C9704AE370}.DebugPunchClock|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB585A43-7099-408D-9956-37C9704AE370}.DebugPunchClock|Any CPU.Build.0 = Debug|Any CPU
+		{FB585A43-7099-408D-9956-37C9704AE370}.DebugPunchClock|Any CPU.Deploy.0 = Debug|Any CPU
+		{FB585A43-7099-408D-9956-37C9704AE370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB585A43-7099-408D-9956-37C9704AE370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB585A43-7099-408D-9956-37C9704AE370}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FB585A43-7099-408D-9956-37C9704AE370}.ReleaseCalendar|Any CPU.ActiveCfg = Release|Any CPU
+		{FB585A43-7099-408D-9956-37C9704AE370}.ReleaseCalendar|Any CPU.Build.0 = Release|Any CPU
+		{FB585A43-7099-408D-9956-37C9704AE370}.ReleaseCalendar|Any CPU.Deploy.0 = Release|Any CPU
+		{FB585A43-7099-408D-9956-37C9704AE370}.ReleasePunchClock|Any CPU.ActiveCfg = Release|Any CPU
+		{FB585A43-7099-408D-9956-37C9704AE370}.ReleasePunchClock|Any CPU.Build.0 = Release|Any CPU
+		{FB585A43-7099-408D-9956-37C9704AE370}.ReleasePunchClock|Any CPU.Deploy.0 = Release|Any CPU
+		{FB585A43-7099-408D-9956-37C9704AE370}.ReleaseTimerStandAlone|Any CPU.ActiveCfg = Release|Any CPU
+		{FB585A43-7099-408D-9956-37C9704AE370}.ReleaseTimerStandAlone|Any CPU.Build.0 = Release|Any CPU
+		{FB585A43-7099-408D-9956-37C9704AE370}.ReleaseTimerStandAlone|Any CPU.Deploy.0 = Release|Any CPU
+		{2B2160CC-5A49-4E9C-96A9-36723B898B4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B2160CC-5A49-4E9C-96A9-36723B898B4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B2160CC-5A49-4E9C-96A9-36723B898B4F}.DebugPunchClock|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B2160CC-5A49-4E9C-96A9-36723B898B4F}.DebugPunchClock|Any CPU.Build.0 = Debug|Any CPU
+		{2B2160CC-5A49-4E9C-96A9-36723B898B4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B2160CC-5A49-4E9C-96A9-36723B898B4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B2160CC-5A49-4E9C-96A9-36723B898B4F}.ReleaseCalendar|Any CPU.ActiveCfg = Release|Any CPU
+		{2B2160CC-5A49-4E9C-96A9-36723B898B4F}.ReleaseCalendar|Any CPU.Build.0 = Release|Any CPU
+		{2B2160CC-5A49-4E9C-96A9-36723B898B4F}.ReleasePunchClock|Any CPU.ActiveCfg = Release|Any CPU
+		{2B2160CC-5A49-4E9C-96A9-36723B898B4F}.ReleasePunchClock|Any CPU.Build.0 = Release|Any CPU
+		{2B2160CC-5A49-4E9C-96A9-36723B898B4F}.ReleaseTimerStandAlone|Any CPU.ActiveCfg = Release|Any CPU
+		{2B2160CC-5A49-4E9C-96A9-36723B898B4F}.ReleaseTimerStandAlone|Any CPU.Build.0 = Release|Any CPU
+		{D1DEA6B0-4BE7-4ACE-8346-A8F149CCA87A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1DEA6B0-4BE7-4ACE-8346-A8F149CCA87A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1DEA6B0-4BE7-4ACE-8346-A8F149CCA87A}.DebugPunchClock|Any CPU.ActiveCfg = DebugPunchClock|Any CPU
+		{D1DEA6B0-4BE7-4ACE-8346-A8F149CCA87A}.DebugPunchClock|Any CPU.Build.0 = DebugPunchClock|Any CPU
+		{D1DEA6B0-4BE7-4ACE-8346-A8F149CCA87A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1DEA6B0-4BE7-4ACE-8346-A8F149CCA87A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1DEA6B0-4BE7-4ACE-8346-A8F149CCA87A}.ReleaseCalendar|Any CPU.ActiveCfg = ReleaseCalendar|Any CPU
+		{D1DEA6B0-4BE7-4ACE-8346-A8F149CCA87A}.ReleaseCalendar|Any CPU.Build.0 = ReleaseCalendar|Any CPU
+		{D1DEA6B0-4BE7-4ACE-8346-A8F149CCA87A}.ReleasePunchClock|Any CPU.ActiveCfg = ReleasePunchClock|Any CPU
+		{D1DEA6B0-4BE7-4ACE-8346-A8F149CCA87A}.ReleasePunchClock|Any CPU.Build.0 = ReleasePunchClock|Any CPU
+		{D1DEA6B0-4BE7-4ACE-8346-A8F149CCA87A}.ReleaseTimerStandAlone|Any CPU.ActiveCfg = ReleaseTimerStandAlone|Any CPU
+		{D1DEA6B0-4BE7-4ACE-8346-A8F149CCA87A}.ReleaseTimerStandAlone|Any CPU.Build.0 = ReleaseTimerStandAlone|Any CPU
+		{D60D9D8E-40BF-4C39-9C90-2214E6A42186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D60D9D8E-40BF-4C39-9C90-2214E6A42186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D60D9D8E-40BF-4C39-9C90-2214E6A42186}.DebugPunchClock|Any CPU.ActiveCfg = Debug|Any CPU
+		{D60D9D8E-40BF-4C39-9C90-2214E6A42186}.DebugPunchClock|Any CPU.Build.0 = Debug|Any CPU
+		{D60D9D8E-40BF-4C39-9C90-2214E6A42186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D60D9D8E-40BF-4C39-9C90-2214E6A42186}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D60D9D8E-40BF-4C39-9C90-2214E6A42186}.ReleaseCalendar|Any CPU.ActiveCfg = Release|Any CPU
+		{D60D9D8E-40BF-4C39-9C90-2214E6A42186}.ReleaseCalendar|Any CPU.Build.0 = Release|Any CPU
+		{D60D9D8E-40BF-4C39-9C90-2214E6A42186}.ReleasePunchClock|Any CPU.ActiveCfg = Release|Any CPU
+		{D60D9D8E-40BF-4C39-9C90-2214E6A42186}.ReleasePunchClock|Any CPU.Build.0 = Release|Any CPU
+		{D60D9D8E-40BF-4C39-9C90-2214E6A42186}.ReleaseTimerStandAlone|Any CPU.ActiveCfg = Release|Any CPU
+		{D60D9D8E-40BF-4C39-9C90-2214E6A42186}.ReleaseTimerStandAlone|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ci-clients-microsoft.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Dovico.CommonLibrary\\Dovico.CommonLibrary.csproj
+		SccProjectName1 = Dovico.CommonLibrary
+		SccLocalPath1 = Dovico.CommonLibrary
+		SccProjectUniqueName2 = Dovico.OutlookTimeEntryAddin.Application\\Dovico.OutlookTimeEntryAddin.Application.csproj
+		SccProjectName2 = Dovico.OutlookTimeEntryAddin.Application
+		SccLocalPath2 = Dovico.OutlookTimeEntryAddin.Application
+		SccProjectUniqueName3 = Dovico.OutlookTimeEntryAddin.Business\\Dovico.OutlookTimeEntryAddin.Business.csproj
+		SccProjectName3 = Dovico.OutlookTimeEntryAddin.Business
+		SccLocalPath3 = Dovico.OutlookTimeEntryAddin.Business
+		SccProjectUniqueName4 = Dovico.OutlookTimeEntryAddin.Common\\Dovico.OutlookTimeEntryAddin.Common.csproj
+		SccProjectName4 = Dovico.OutlookTimeEntryAddin.Common
+		SccLocalPath4 = Dovico.OutlookTimeEntryAddin.Common
+		SccProjectUniqueName5 = Dovico.OutlookTimeEntryAddin.Integration\\Dovico.OutlookTimeEntryAddin.Integration.csproj
+		SccProjectName5 = Dovico.OutlookTimeEntryAddin.Integration
+		SccLocalPath5 = Dovico.OutlookTimeEntryAddin.Integration
+		SccProjectUniqueName6 = Dovico.OutlookTimeEntryAddin.Test\\Dovico.OutlookTimeEntryAddin.Test.csproj
+		SccProjectName6 = Dovico.OutlookTimeEntryAddin.Test
+		SccLocalPath6 = Dovico.OutlookTimeEntryAddin.Test
+		SccProjectUniqueName7 = Dovico.OutlookTimeEntryAddin.WebAddIn\\Dovico.OutlookTimeEntryAddin.WebAddIn.csproj
+		SccProjectName7 = Dovico.OutlookTimeEntryAddin.WebAddIn
+		SccLocalPath7 = Dovico.OutlookTimeEntryAddin.WebAddIn
+		SccProjectUniqueName8 = Dovico.OutlookTimeEntryAddin.WebAddInWeb\\Dovico.OutlookTimeEntryAddin.WebAddInWeb.csproj
+		SccProjectName8 = Dovico.OutlookTimeEntryAddin.WebAddInWeb
+		SccLocalPath8 = Dovico.OutlookTimeEntryAddin.WebAddInWeb
+	EndGlobalSection
+EndGlobal

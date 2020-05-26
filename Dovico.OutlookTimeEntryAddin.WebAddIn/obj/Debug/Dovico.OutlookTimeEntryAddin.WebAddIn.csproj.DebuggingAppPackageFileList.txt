@@ -1,0 +1,2 @@
+bin\Debug\OfficeAppManifests\Dovico.OutlookTimeEntryAddin.WebAddInManifest.xml
+C:\work\dovico-outlookaddin\Dovico.OutlookTimeEntryAddin.WebAddIn\bin\Debug\Dovico.OutlookTimeEntryAddin.WebAddIn.debugapp
